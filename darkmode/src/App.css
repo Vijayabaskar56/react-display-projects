@@ -1,0 +1,129 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  background-color: rgb(10, 27, 184);
+  max-width: 600px;
+  padding: 10px 20px 20px;
+  border-radius: 12px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container h2 {
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 0 20px 0;
+  color: white;
+}
+
+button {
+  background: rgb(211, 216, 253);
+  color: rgb(10, 27, 184);
+  border: 2px solid rgb(10, 27, 184);
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+section div,
+section p {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 0px;
+}
+
+section p {
+  padding-bottom: 20px;
+}
+
+section > div.closed {
+  margin-bottom: 20px;
+}
+
+
+.output {
+  text-transform: capitalize;
+}
+label {
+  display: flex;
+  flex-direction: column;
+  font-size: 40px;
+}
+
+.btn {
+  display: block;
+  display: flex;
+  margin: 40px;
+  border: 1px solid blanchedalmond;
+  width: 25vw;
+  height: 5vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.input-box {
+  width: 25vw;
+  height: 5vh;
+  border: 2px solid white;
+  font-size: large;
+}
+
+.input-box:focus {
+  color:rgb(32, 32, 32);
+}
+
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+  display:flex;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
